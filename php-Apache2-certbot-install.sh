@@ -16,3 +16,8 @@ sudo apt install apache2 -y
 apache2 -v 
 
 echo "Apache installation and setup complete."
+
+# certbot installation
+
+sudo apt install certbot python3-certbot-apache -y
+
