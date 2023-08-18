@@ -10,3 +10,9 @@ sudo apt install php php-cli php-fpm php-json php-common php-mysql php-zip php-g
 php -v
 
 echo "PHP installation and setup complete."
+
+sudo apt install apache2 -y
+
+apache2 -v 
+
+echo "Apache installation and setup complete."
