@@ -1,0 +1,13 @@
+<VirtualHost *:80>
+  ServerAdmin webmaster@shivm04.xyz
+  ServerName  demo.shivm04.xyz
+  ServerAlias demo.shivm04.xyz
+
+
+  # Index file and Document Root (where the public files are located)
+  DirectoryIndex index.html 
+  DocumentRoot /var/www/html/
+  LogLevel warn
+  ErrorLog  /var/log/apache2/crmqa.brandbuddiez.com/error.log
+  CustomLog /var/log/apache2/crmqa.brandbuddiez.com/access.log combined
+</VirtualHost>
