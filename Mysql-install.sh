@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the MySQL root password
-MYSQL_ROOT_PASSWORD="shivam@1227"
+MYSQL_ROOT_PASSWORD="awsterrabyte@1227"
 
 # Update package repositories
 sudo apt update
