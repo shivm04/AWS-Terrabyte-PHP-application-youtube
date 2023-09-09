@@ -1,14 +1,14 @@
 # this below configration file is dedicated for the port 80 only we have not added the port 443 configration
 
 <VirtualHost *:80>
-  ServerAdmin webmaster@shivm04.xyz       # your website admin name you can add any name here
-  ServerName  demo.shivm04.xyz            # Here add your webste name 
-  ServerAlias demo.shivm04.xyz            # Add the alias of your website like another sub-domain name
+  ServerAdmin webmaster@shivm04.xyz 
+  ServerName  demo.shivm04.xyz         
+  ServerAlias demo.shivm04.xyz          
 
-  # Index file and Document Root (where the public files are located)
-  DirectoryIndex index.php                # add your website index page 
-  DocumentRoot /var/www/html/             # Path where you appliation code is stored 
+
+  DirectoryIndex index.php               
+  DocumentRoot /var/www/html/             
   LogLevel warn
-  ErrorLog  /var/log/apache2/your-website-name/error.log                 # Path in which your error code is stored   
-  CustomLog /var/log/apache2/your-website-name/access.log combined       # Path in which your access logs are stored 
+  ErrorLog  /var/log/apache2/your-website-name/error.log                  
+  CustomLog /var/log/apache2/your-website-name/access.log combined
 </VirtualHost>
