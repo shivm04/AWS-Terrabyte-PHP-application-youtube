@@ -3,9 +3,7 @@
 # Update package repositories
 sudo apt update -y
 
-#shivam Patil changes
-#new shivam chnages
-#new one chnages
+
 
 # Install PHP and required extensions
 sudo apt install php php-cli php-fpm php-json php-common php-mysql php-zip php-gd php-mbstring php-curl php-xml php-pear php-bcmath -y
