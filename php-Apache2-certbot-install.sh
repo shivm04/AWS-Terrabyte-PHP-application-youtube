@@ -3,7 +3,7 @@
 # Update package repositories
 sudo apt update -y
 
-
+#shivam
 
 # Install PHP and required extensions
 sudo apt install php php-cli php-fpm php-json php-common php-mysql php-zip php-gd php-mbstring php-curl php-xml php-pear php-bcmath -y
